@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- menu bar -->
+     <nav class="navbar">
+        <div class="logo">
+            <h1>coffee <span>.</span></h1>
+        </div>
+        <div class="nav-links">
+            <button class="nav-button">home</button>
+            <button class="nav-button">product</button>
+            <div >
+                <a href="aboutus.html" class="nav-button">about us</a>
+            </div>
+            <button class="nav-button">contact</button>
+        </div>
+        <div class="profile-cart">
+            <a href="#"><img src="image/icon/profile_icon.jpg" alt="Profile"></a>
+            <a href="#"><img src="image/icon/cart_icon.jpg" alt="Cart"></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form>
+            <h1>Contact Us Form</h1>
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <h4>Type Your Message Here...</h4>
+            <textarea required></textarea>
+            <input type="submit" value="Send" id="button">
+        </form>
+    </div>
+    
+</body>
+</html>
